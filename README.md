@@ -20,6 +20,7 @@ The reason why we have to go through this phases is that a high level language l
 I will be focusing on building these 2 constructs - 
 •	While looping Statement.
 •	For looping Statement. 
+
 Keeping these constructs in mind, I have -
 • Built a symbol table
 • Done error handling
