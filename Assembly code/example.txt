@@ -1,0 +1,47 @@
+a = 10
+b = 10
+c = 10
+i = 0
+t0 = 45 * 56
+i = t0
+
+JUMP1:
+
+LOOP0:
+t4 = a == 5
+ifFalse t4 goto LOOP1
+t5 = a + 5
+t6 = t5 * t4
+t7 = t6 + 4 
+LOOP1:
+t6 = a + 5
+a = t6 + 4
+j = t6
+j = 1
+
+LOOP2:
+t7 = j < 10
+ifFalse t8 goto LOOP3
+
+t9 = c > 5
+ifFalse t9 goto JUMP2
+t10 = c + 1
+c = t10
+JUMP2:
+
+t11 = j + 1
+j = t11
+goto LOOP2
+LOOP3:
+
+t12 = b > 5
+ifFalse t12 goto LOOP4
+goto LOOP3
+LOOP4:
+
+
+LOOP5:
+ifFalse t12 goto LOOP6
+goto LOOP5
+LOOP6:
+

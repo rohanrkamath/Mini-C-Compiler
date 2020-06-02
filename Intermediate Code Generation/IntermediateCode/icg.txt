@@ -1,0 +1,28 @@
+i = 2
+b = 100
+t0 = i > 10
+ifFalse t0 goto L0
+goto L1
+L0:
+L1:
+i = t0
+L2:
+t1 = i < 10
+ifFalse t1 goto L3
+t2 = b * 2
+t3 = t2 * 3
+t4 = t3 * 4
+b = t4
+t5 = i + 1
+i = t5
+goto L2
+L3:
+t6 = a * 3
+t7 = t6 + 4
+a = t7
+i = t7
+L4:
+t8 = a > 11
+ifFalse t8 goto L5
+goto L4
+L5:
