@@ -1,7 +1,7 @@
 # Mini C++ Compiler
 A mini C++ compiler that handles While and For constructs.
 
-#INDRODUCTION
+INDRODUCTION
 
 Built  a mini-compiler for the C++ programming language. C++ programming is a general-purpose, object oriented language. I have used Lex and Yacc for the implementation of this mini-compiler. 
 As we all know, there are 5 distinct phases in compiler designing, namely -
