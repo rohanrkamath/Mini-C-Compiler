@@ -16,6 +16,7 @@ The reason why we have to go through this phases is that a high level language l
 3.	Semantic Analysis Phase - In this phase we will do semantic checks of the code and we will also build Abstract Syntax Tree. 
 4.	ICG - In this phase, we will be generating (3AC) address codes which are intermediate codes. 
 5.	TCG - In this phase, we will generate assembly code (MIPS Architecture), also known as the target code. This, finally is the code understood by the machine. 
+
 I will be focusing on building these 2 constructs - 
 •	While looping Statement.
 •	For looping Statement. 
