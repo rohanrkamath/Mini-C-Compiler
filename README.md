@@ -1,4 +1,4 @@
-# Mini-C-Compiler
+# Mini-C++-Compiler
 A mini C++ compiler that handles While and For constructs.
 
 #INDRODUCTION
